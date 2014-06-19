@@ -6,7 +6,7 @@ import shutil
 
 def main():
     base = os.path.dirname(os.path.abspath(__file__))
-    files = ['cde']
+    files = ['cde', 'cde-exec']
     dest = os.path.join(os.environ['HOME'], '.local', 'bin')
     for f in files:
         ffrom = os.path.join(base, f)
